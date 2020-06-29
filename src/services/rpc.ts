@@ -61,7 +61,7 @@ export function stop () {
 async function rpc (method, params) {
   const rpcUrl = API_BASE
   try {
-    const response = await fetch('http://167.71.228.14:7000', {
+    const response = await fetch('https://voice-check.tk', {
       method: 'POST', // *GET, POST, PUT, DELETE, etc.
       mode: 'cors', // no-cors, *cors, same-origin
       cache: 'no-cache', // *default, no-cache, reload, force-cache, only-if-cached
